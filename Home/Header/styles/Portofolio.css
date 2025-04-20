@@ -1,0 +1,24 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  a {
+    transition: color 0.3s ease;
+  }
+  
+  section {
+    scroll-margin-top: 70px;
+  }
+  .O {
+    background-color: rgb(185, 8, 8);
+    color: white;
+    font-size: 12px;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+  }
+  .O:hover {
+    background-color: rgb(212, 65, 65);
+    color: white;
+    cursor: pointer;
+  }

@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  background: linear-gradient(to right, rgb(204, 204, 204), rgb(192, 192, 192));
+}
+header {
+  background-color: #FFFBF5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 65px;
+}
+.p {
+  color: black;
+  text-decoration: none;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65px;
+}
+.p:hover {
+  transform: translateZ(3px);
+  background-color: #f3f3f3;
+  cursor: pointer;
+  border-bottom: 2px solid black;
+}
+.S {
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+  color: black;
+}
+.Sign {
+  background-color: transparent;
+  border: 2px solid black;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 60px;
+  width: 80px;
+  color: rgb(0, 0, 0);
+}
+.Sign:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.O {
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  height: 30px;
+  margin-right: 50px;
+  width: 80px;
+  border-radius: 5px;
+}
+.O:hover {
+  background-color: transparent;
+  border: 2px solid black;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.d {
+  height: 60px;
+}
+.z {
+  position: relative;
+  height: 89vh;
+  width: 201vh;
+}
+.Text {
+  position: absolute;
+  color: white;
+  left: 560px;
+  top: 200px;
+  opacity: 0.8;
+}
+.Val {
+  position: absolute;
+  height:200px;
+  top: 230px;
+  opacity: 0.8;
+  left: 600px;
+}
+.TM {
+  height: 15px;
+  position: absolute;
+  top: 328px;
+  left: 780px;
+}

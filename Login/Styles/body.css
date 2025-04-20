@@ -1,0 +1,9 @@
+.brand {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  z-index: 2;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
